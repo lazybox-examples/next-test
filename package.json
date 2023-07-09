@@ -6,11 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lazybox": "next dev --port 3000"
   },
   "dependencies": {
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "engines": {
+    "node": ">=18.14.0"
   }
 }
